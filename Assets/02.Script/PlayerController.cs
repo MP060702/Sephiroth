@@ -9,7 +9,6 @@ public class PlayerController : MonoBehaviour
     public SpriteRenderer SR;
     public Animator Animator;
     public float MoveSpeed;
-    public float JumpForce; 
     public float v;
 
     private void Start()
@@ -22,28 +21,28 @@ public class PlayerController : MonoBehaviour
     private void Update()
     {
         MoveInput();
-        JumpInput();
     }
 
     public void MoveInput()
     {
         float moveX = Input.GetAxis("Horizontal");
+        float moveY = Input.GetAxis("Vertical");
 
         if (moveX < 0) SR.flipX = true;
         else if (moveX > 0) SR.flipX = false;
         
-        Vector3 movePos = new Vector3(moveX, 0, 0);
+        Vector3 movePos = new Vector3(moveX, moveY, 0);
         Rigid2D.velocity = movePos * MoveSpeed;
 
         v = Rigid2D.velocity.magnitude;
         Animator.SetFloat("Velocity", v);
     }
-
-    public void JumpInput()
+    
+    public void RollInput()
     {
-        if (Input.GetKey(KeyCode.Space))
-        {   
-            Rigid2D.AddForce(Vector2.up * JumpForce, ForceMode2D.Impulse);
+        if(Input.GetKeyDown(KeyCode.Space))
+        {
+            
         }
     }
 }
