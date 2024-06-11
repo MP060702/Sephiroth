@@ -9,7 +9,7 @@ public class PlayerController : MonoBehaviour
     public SpriteRenderer SR;
     public Animator Animator;
     public float MoveSpeed;
-    public float v;
+    public float JumpPower;
 
     private void Start()
     {
@@ -21,6 +21,7 @@ public class PlayerController : MonoBehaviour
     private void Update()
     {
         MoveInput();
+        JumpInput();
     }
 
     public void MoveInput()
@@ -33,15 +34,16 @@ public class PlayerController : MonoBehaviour
         Vector3 movePos = new Vector3(moveX, 0, 0);
         Rigid2D.velocity = movePos * MoveSpeed;
 
-        v = Rigid2D.velocity.magnitude;
-        Animator.SetFloat("Velocity", v);
+        Animator.SetFloat("xVelocity", Mathf.Abs(Rigid2D.velocity.x));
+        Animator.SetFloat("yVelocity", Rigid2D.velocity.y);
     }
     
     public void JumpInput()
     {
         if (Input.GetKeyDown(KeyCode.Space))
         {
-
+            Rigid2D.velocity = new Vector2(Rigid2D.velocity.x, JumpPower);
+            Animator.SetBool("isJump", true);
         }
     }
 

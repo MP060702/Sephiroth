@@ -301,7 +301,7 @@ MonoBehaviour:
   SR: {fileID: 0}
   Animator: {fileID: 0}
   MoveSpeed: 10
-  v: 0
+  JumpPower: 10
 --- !u!95 &453720561
 Animator:
   serializedVersion: 5
