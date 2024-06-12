@@ -279,7 +279,7 @@ Transform:
   m_GameObject: {fileID: 453720555}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.8, y: -0.32, z: 0}
+  m_LocalPosition: {x: -3.62, y: -0.32, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -301,7 +301,10 @@ MonoBehaviour:
   SR: {fileID: 0}
   Animator: {fileID: 0}
   MoveSpeed: 10
-  JumpPower: 10
+  JumpPower: 30
+  isGround: 0
+  RollPower: 30
+  RollTime: 0.5
 --- !u!95 &453720561
 Animator:
   serializedVersion: 5
@@ -641,7 +644,7 @@ GameObject:
   - component: {fileID: 1640440263}
   m_Layer: 0
   m_Name: Tilemap
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
