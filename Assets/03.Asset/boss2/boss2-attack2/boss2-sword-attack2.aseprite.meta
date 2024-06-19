@@ -1,0 +1,574 @@
+fileFormatVersion: 2
+guid: aca45c497395ad740bc93f4dee17be08
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 0
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: boss2-sword-attack2_Frame_0
+    originalName: 
+    pivot: {x: 0.222222, y: -2.151515}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 23
+      y: 159
+      width: 9
+      height: 33
+    spriteID: 7aecd58f9e46622428ab0084d364634c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 23, y: 159}
+  - name: boss2-sword-attack2_Frame_1
+    originalName: 
+    pivot: {x: 0.45454556, y: -2.151515}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 159
+      width: 11
+      height: 33
+    spriteID: 6299810b05e62aa47843d2014ba9dd67
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 159}
+  - name: boss2-sword-attack2_Frame_2
+    originalName: 
+    pivot: {x: 0.87878793, y: -1.7560977}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 214
+      y: 4
+      width: 33
+      height: 41
+    spriteID: 9fd6af453b16a64449ade72433d2cec6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 214, y: 4}
+  - name: boss2-sword-attack2_Frame_3
+    originalName: 
+    pivot: {x: 0.9215687, y: -3.8461537}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 54
+      width: 51
+      height: 26
+    spriteID: b8bfbc4834e286244b2e28da6913c790
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 54}
+  - name: boss2-sword-attack2_Frame_4
+    originalName: 
+    pivot: {x: 0.9183673, y: -4.04}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 63
+      y: 54
+      width: 49
+      height: 25
+    spriteID: fed98eae152c3ad4780e983974fc7e79
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 63, y: 54}
+  - name: boss2-sword-attack2_Frame_5
+    originalName: 
+    pivot: {x: 0.9183673, y: -4.04}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 120
+      y: 54
+      width: 49
+      height: 25
+    spriteID: db887e3aa70827f4c9851d44f977f39e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 120, y: 54}
+  - name: boss2-sword-attack2_Frame_6
+    originalName: 
+    pivot: {x: 0.9183673, y: -4.08}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 177
+      y: 54
+      width: 49
+      height: 25
+    spriteID: dfd0b70a2ba7236468d9749673a4647f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 177, y: 54}
+  - name: boss2-sword-attack2_Frame_7
+    originalName: 
+    pivot: {x: 0.9183673, y: -4.08}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 88
+      width: 49
+      height: 25
+    spriteID: 0511bc02f5822a746a657be80e10aaed
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 88}
+  - name: boss2-sword-attack2_Frame_8
+    originalName: 
+    pivot: {x: 0.9047619, y: -4.208333}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 61
+      y: 88
+      width: 42
+      height: 24
+    spriteID: 0368462281bddc34cacd4bd04f4f6c53
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 61, y: 88}
+  - name: boss2-sword-attack2_Frame_9
+    originalName: 
+    pivot: {x: 0.9047619, y: -4.208333}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 111
+      y: 88
+      width: 42
+      height: 24
+    spriteID: c75e29c43fdb04046a9249491573c84b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 111, y: 88}
+  - name: boss2-sword-attack2_Frame_10
+    originalName: 
+    pivot: {x: 0.9047619, y: -4.208333}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 161
+      y: 88
+      width: 42
+      height: 24
+    spriteID: f7998d78f984eaa499a2054f39820031
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 161, y: 88}
+  - name: boss2-sword-attack2_Frame_11
+    originalName: 
+    pivot: {x: 0.16037737, y: -1.8333333}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 106
+      height: 42
+    spriteID: 3f6fa3e3aad42ff4b8b2f88a208fe1b0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: boss2-sword-attack2_Frame_12
+    originalName: 
+    pivot: {x: -0.0113636255, y: -3.6774194}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 118
+      y: 4
+      width: 88
+      height: 31
+    spriteID: fe538d5317eb2ae468807197bd22def8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 118, y: 4}
+  - name: boss2-sword-attack2_Frame_13
+    originalName: 
+    pivot: {x: 0.3793104, y: -3.7666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 121
+      width: 29
+      height: 30
+    spriteID: 3abf230759d2e1d48b8e485e0148355a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 121}
+  - name: boss2-sword-attack2_Frame_14
+    originalName: 
+    pivot: {x: 0.3793104, y: -3.9310343}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 41
+      y: 121
+      width: 29
+      height: 29
+    spriteID: 22d3adc72ceb7a548bb66405999927ef
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 41, y: 121}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: -1685370700
+    name: boss2-sword-attack2
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: boss2-sword-attack2_Frame_0
+      frameIndex: 0
+      additiveSortOrder: 0
+      cellRect:
+        x: 98
+        y: 71
+        width: 9
+        height: 33
+      spriteId: 7aecd58f9e46622428ab0084d364634c
+    - name: boss2-sword-attack2_Frame_1
+      frameIndex: 1
+      additiveSortOrder: 0
+      cellRect:
+        x: 95
+        y: 71
+        width: 11
+        height: 33
+      spriteId: 6299810b05e62aa47843d2014ba9dd67
+    - name: boss2-sword-attack2_Frame_2
+      frameIndex: 2
+      additiveSortOrder: 0
+      cellRect:
+        x: 71
+        y: 72
+        width: 33
+        height: 41
+      spriteId: 9fd6af453b16a64449ade72433d2cec6
+    - name: boss2-sword-attack2_Frame_3
+      frameIndex: 3
+      additiveSortOrder: 0
+      cellRect:
+        x: 53
+        y: 100
+        width: 51
+        height: 26
+      spriteId: b8bfbc4834e286244b2e28da6913c790
+    - name: boss2-sword-attack2_Frame_4
+      frameIndex: 4
+      additiveSortOrder: 0
+      cellRect:
+        x: 55
+        y: 101
+        width: 49
+        height: 25
+      spriteId: fed98eae152c3ad4780e983974fc7e79
+    - name: boss2-sword-attack2_Frame_5
+      frameIndex: 5
+      additiveSortOrder: 0
+      cellRect:
+        x: 55
+        y: 101
+        width: 49
+        height: 25
+      spriteId: db887e3aa70827f4c9851d44f977f39e
+    - name: boss2-sword-attack2_Frame_6
+      frameIndex: 6
+      additiveSortOrder: 0
+      cellRect:
+        x: 55
+        y: 102
+        width: 49
+        height: 25
+      spriteId: dfd0b70a2ba7236468d9749673a4647f
+    - name: boss2-sword-attack2_Frame_7
+      frameIndex: 7
+      additiveSortOrder: 0
+      cellRect:
+        x: 55
+        y: 102
+        width: 49
+        height: 25
+      spriteId: 0511bc02f5822a746a657be80e10aaed
+    - name: boss2-sword-attack2_Frame_8
+      frameIndex: 8
+      additiveSortOrder: 0
+      cellRect:
+        x: 62
+        y: 101
+        width: 42
+        height: 24
+      spriteId: 0368462281bddc34cacd4bd04f4f6c53
+    - name: boss2-sword-attack2_Frame_9
+      frameIndex: 9
+      additiveSortOrder: 0
+      cellRect:
+        x: 62
+        y: 101
+        width: 42
+        height: 24
+      spriteId: c75e29c43fdb04046a9249491573c84b
+    - name: boss2-sword-attack2_Frame_10
+      frameIndex: 10
+      additiveSortOrder: 0
+      cellRect:
+        x: 62
+        y: 101
+        width: 42
+        height: 24
+      spriteId: f7998d78f984eaa499a2054f39820031
+    - name: boss2-sword-attack2_Frame_11
+      frameIndex: 11
+      additiveSortOrder: 0
+      cellRect:
+        x: 83
+        y: 77
+        width: 106
+        height: 42
+      spriteId: 3f6fa3e3aad42ff4b8b2f88a208fe1b0
+    - name: boss2-sword-attack2_Frame_12
+      frameIndex: 12
+      additiveSortOrder: 0
+      cellRect:
+        x: 101
+        y: 114
+        width: 88
+        height: 31
+      spriteId: fe538d5317eb2ae468807197bd22def8
+    - name: boss2-sword-attack2_Frame_13
+      frameIndex: 13
+      additiveSortOrder: 0
+      cellRect:
+        x: 89
+        y: 113
+        width: 29
+        height: 30
+      spriteId: 3abf230759d2e1d48b8e485e0148355a
+    - name: boss2-sword-attack2_Frame_14
+      frameIndex: 14
+      additiveSortOrder: 0
+      cellRect:
+        x: 89
+        y: 114
+        width: 29
+        height: 29
+      spriteId: 22d3adc72ceb7a548bb66405999927ef
+    linkedCells: []
+    parentIndex: -1
+  platformSettings: []
+  generatePhysicsShape: 0
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 200, y: 200}

@@ -9,7 +9,7 @@ public class Bullet : MonoBehaviour
     public Vector2 div;
 
     private Transform targetObject;
-    public float disappearDistance = 500f; 
+    public float disappearDistance = 100f; 
 
     void Start()
     {
