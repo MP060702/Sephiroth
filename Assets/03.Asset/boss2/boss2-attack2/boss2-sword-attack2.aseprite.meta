@@ -77,7 +77,6 @@ ScriptedImporter:
     defaultPivotSpace: 0
     defaultPivotAlignment: 7
     customPivotPosition: {x: 0.5, y: 0.5}
-    mosaicPadding: 4
     spritePadding: 0
     generateModelPrefab: 1
     generateAnimationClips: 1
@@ -90,7 +89,6 @@ ScriptedImporter:
     defaultPivotSpace: 0
     defaultPivotAlignment: 7
     customPivotPosition: {x: 0.5, y: 0.5}
-    mosaicPadding: 4
     spritePadding: 0
     generateModelPrefab: 1
     generateAnimationClips: 1
@@ -432,7 +430,6 @@ ScriptedImporter:
     cells:
     - name: boss2-sword-attack2_Frame_0
       frameIndex: 0
-      additiveSortOrder: 0
       cellRect:
         x: 98
         y: 71
@@ -441,7 +438,6 @@ ScriptedImporter:
       spriteId: 7aecd58f9e46622428ab0084d364634c
     - name: boss2-sword-attack2_Frame_1
       frameIndex: 1
-      additiveSortOrder: 0
       cellRect:
         x: 95
         y: 71
@@ -450,7 +446,6 @@ ScriptedImporter:
       spriteId: 6299810b05e62aa47843d2014ba9dd67
     - name: boss2-sword-attack2_Frame_2
       frameIndex: 2
-      additiveSortOrder: 0
       cellRect:
         x: 71
         y: 72
@@ -459,7 +454,6 @@ ScriptedImporter:
       spriteId: 9fd6af453b16a64449ade72433d2cec6
     - name: boss2-sword-attack2_Frame_3
       frameIndex: 3
-      additiveSortOrder: 0
       cellRect:
         x: 53
         y: 100
@@ -468,7 +462,6 @@ ScriptedImporter:
       spriteId: b8bfbc4834e286244b2e28da6913c790
     - name: boss2-sword-attack2_Frame_4
       frameIndex: 4
-      additiveSortOrder: 0
       cellRect:
         x: 55
         y: 101
@@ -477,7 +470,6 @@ ScriptedImporter:
       spriteId: fed98eae152c3ad4780e983974fc7e79
     - name: boss2-sword-attack2_Frame_5
       frameIndex: 5
-      additiveSortOrder: 0
       cellRect:
         x: 55
         y: 101
@@ -486,7 +478,6 @@ ScriptedImporter:
       spriteId: db887e3aa70827f4c9851d44f977f39e
     - name: boss2-sword-attack2_Frame_6
       frameIndex: 6
-      additiveSortOrder: 0
       cellRect:
         x: 55
         y: 102
@@ -495,7 +486,6 @@ ScriptedImporter:
       spriteId: dfd0b70a2ba7236468d9749673a4647f
     - name: boss2-sword-attack2_Frame_7
       frameIndex: 7
-      additiveSortOrder: 0
       cellRect:
         x: 55
         y: 102
@@ -504,7 +494,6 @@ ScriptedImporter:
       spriteId: 0511bc02f5822a746a657be80e10aaed
     - name: boss2-sword-attack2_Frame_8
       frameIndex: 8
-      additiveSortOrder: 0
       cellRect:
         x: 62
         y: 101
@@ -513,7 +502,6 @@ ScriptedImporter:
       spriteId: 0368462281bddc34cacd4bd04f4f6c53
     - name: boss2-sword-attack2_Frame_9
       frameIndex: 9
-      additiveSortOrder: 0
       cellRect:
         x: 62
         y: 101
@@ -522,7 +510,6 @@ ScriptedImporter:
       spriteId: c75e29c43fdb04046a9249491573c84b
     - name: boss2-sword-attack2_Frame_10
       frameIndex: 10
-      additiveSortOrder: 0
       cellRect:
         x: 62
         y: 101
@@ -531,7 +518,6 @@ ScriptedImporter:
       spriteId: f7998d78f984eaa499a2054f39820031
     - name: boss2-sword-attack2_Frame_11
       frameIndex: 11
-      additiveSortOrder: 0
       cellRect:
         x: 83
         y: 77
@@ -540,7 +526,6 @@ ScriptedImporter:
       spriteId: 3f6fa3e3aad42ff4b8b2f88a208fe1b0
     - name: boss2-sword-attack2_Frame_12
       frameIndex: 12
-      additiveSortOrder: 0
       cellRect:
         x: 101
         y: 114
@@ -549,7 +534,6 @@ ScriptedImporter:
       spriteId: fe538d5317eb2ae468807197bd22def8
     - name: boss2-sword-attack2_Frame_13
       frameIndex: 13
-      additiveSortOrder: 0
       cellRect:
         x: 89
         y: 113
@@ -558,7 +542,6 @@ ScriptedImporter:
       spriteId: 3abf230759d2e1d48b8e485e0148355a
     - name: boss2-sword-attack2_Frame_14
       frameIndex: 14
-      additiveSortOrder: 0
       cellRect:
         x: 89
         y: 114
@@ -568,7 +551,6 @@ ScriptedImporter:
     linkedCells: []
     parentIndex: -1
   platformSettings: []
-  generatePhysicsShape: 0
   secondarySpriteTextures: []
   spritePackingTag: 
   canvasSize: {x: 200, y: 200}
